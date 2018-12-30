@@ -38,7 +38,8 @@ local tfjob = {
                   "--data_format=NHWC",
                   "--data_dir=/efs/jobs",
                   "--train_dir=/efs/jobs",
-                  "--eval_dir=/efs/jobs"
+                  "--eval_dir=/efs/jobs",
+                  "--data_name='coco'"
                 ],
                 image: image,
                 name: "tensorflow",
@@ -67,7 +68,8 @@ local tfjob = {
                   "--data_format=NHWC",
                   "--data_dir=/efs/jobs",
                   "--train_dir=/efs/jobs",
-                  "--eval_dir=/efs/jobs"
+                  "--eval_dir=/efs/jobs",
+                  "--data_name='coco'"
                 ],
                 image: image,
                 name: "tensorflow",
